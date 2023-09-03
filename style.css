@@ -9,6 +9,8 @@
     src: url(./fonts/Norse-Bold.otf);
 }
 
+
+
 .logo-bar{
     border: 1px solid;
     height: 10rem;
@@ -40,6 +42,7 @@
 }
 
 .top-txt{
+
     margin-top: 2rem;
     padding: 0.5rem;
     font-family:'Courier New', Courier, monospace;
@@ -54,10 +57,11 @@
 }
 
 .main-form{
-    border: 1px solid;
+
     margin: 2rem 0 2rem 0;
     box-shadow: 0 3px 3px 0 silver;
     padding: 1rem 1.2rem 3rem 1.2rem;
+    /* max-width: 470px; */
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -104,3 +108,58 @@ input:focus{
     border-color: dodgerblue;
 
 }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 600px) and (max-width: 960px) {
+    .logo-bar{
+        height: 10rem;
+    }
+
+    .top-txt{
+        max-width: 600px;
+    }
+    .form-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-form{
+        max-width: 900px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .txt{
+        /* border: 1px solid; */
+        display: grid;
+        justify-content: center;
+    }
+
+    .top-txt{
+        max-width: 800px;
+    }
+    .form-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .logo-bar{
+        min-width: 40%;
+        height: 100vh;
+    }
+  }

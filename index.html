@@ -16,51 +16,48 @@
                     <p>ODIN</p>
                 </div>
             </div>
-
-            <div>
-                <p class="top-txt">This is not a real online service! You know you need something like this
-                    in your life to help you realize your deepest dreams. 
-                </p>
-                <p class="top-txt">You know you want to.</p>
-                <p class="top-txt">Let's do this!</p>
-            </div>
-
-            <form action="https://httpbin.org/post" method="post" class="form">
-                <div class="main-form">
-                    <div class="first-name">
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" name="first-name" id="first-name" minlength="3" maxlength="16" pattern="[A-za-z]+" placeholder="Thorin" required>
-                    </div>
-                    <div class="last-name">
-                        <label for="last-name">LAST NAME</label>
-                        <input type="text" name="last-name" id="last-name" minlength="3" maxlength="16" placeholder="Oakenshield" required>
-                    </div>
-                    <div class="email">
-                        <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email" placeholder="example@email.com" required>
-                    </div>
-                    <div class="phone">
-                        <label for="phone-num">PHONE NUMBER</label>
-                        <input type="tel" name="phone-num" id="phone-num" maxlength="11" pattern="([0-9]+(-[0-9]+)+)" placeholder="123-4567890">
-                    </div>
-                    <div class="password">
-                        <label for="pass">PASSWORD</label>
-                        <input type="password" name="pass" id="pass" class="pass" required>
-                    </div>
-                    <div class="cnfrm-pass">
-                        <label for="confrm-pass">CONFIRM PASSWORD</label>
-                        <input type="password" name="confrm-pass" id="confrm-pass" class="confrm-pass" required>
-                        <div class="message"></div>
-                    </div>
+            <div class="form-wrapper">
+                <div class="txt">
+                    <p class="top-txt">This is not a real online service! You know you need something like this
+                        in your life to help you realize your deepest dreams.
+                    </p>
+                    <p class="top-txt">You know you want to.</p>
+                    <p class="top-txt">Let's do this!</p>
                 </div>
-                <span class="footer">
-                    <button type="submit">Create Account</button>
-                    <p>Already have an account?<a href="http://" target="_blank" rel="noopener noreferrer"> Log in</a></p>
-                </span>
-            </form>
-
-
-
+                <form action="https://httpbin.org/post" method="post" class="form">
+                    <div class="main-form">
+                        <div class="first-name">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="first-name" id="first-name" minlength="3" maxlength="16" pattern="[A-za-z]+" placeholder="Thorin" required>
+                        </div>
+                        <div class="last-name">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="last-name" id="last-name" minlength="3" maxlength="16" placeholder="Oakenshield" required>
+                        </div>
+                        <div class="email">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" placeholder="example@email.com" required>
+                        </div>
+                        <div class="phone">
+                            <label for="phone-num">PHONE NUMBER</label>
+                            <input type="tel" name="phone-num" id="phone-num" maxlength="11" pattern="([0-9]+(-[0-9]+)+)" placeholder="123-4567890">
+                        </div>
+                        <div class="password">
+                            <label for="pass">PASSWORD</label>
+                            <input type="password" name="pass" id="pass" class="pass" required>
+                        </div>
+                        <div class="cnfrm-pass">
+                            <label for="confrm-pass">CONFIRM PASSWORD</label>
+                            <input type="password" name="confrm-pass" id="confrm-pass" class="confrm-pass" required>
+                            <div class="message"></div>
+                        </div>
+                    </div>
+                    <span class="footer">
+                        <button type="submit">Create Account</button>
+                        <p>Already have an account?<a href="http://" target="_blank" rel="noopener noreferrer"> Log in</a></p>
+                    </span>
+                </form>
+            </div>
         </div>
 
 

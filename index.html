@@ -25,20 +25,33 @@
                 <p class="top-txt">Let's do this!</p>
             </div>
 
-            <form action="https://httpbin.org/post" method="post">
-                <div class="form">
-                    <label for="first-name">FIRST NAME</label>
-                    <input type="text" name="first-name" id="first-name" minlength="3" maxlength="16" pattern="[A-za-z]+" placeholder="Thorin" required>
-                    <label for="last-name">LAST NAME</label>
-                    <input type="text" name="last-name" id="last-name" minlength="3" maxlength="16" placeholder="Oakenshield" required>
-                    <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email" placeholder="example@email.com" required>
-                    <label for="phone-num">PHONE NUMBER</label>
-                    <input type="tel" name="phone-num" id="phone-num" maxlength="11" pattern="([0-9]+(-[0-9]+)+)" placeholder="123-4567890">
-                    <label for="pass">PASSWORD</label>
-                    <input type="password" name="pass" id="pass" class="error" required>
-                    <label for="confrm-pass">CONFIRM PASSWORD</label>
-                    <input type="password" name="confrm-pass" id="confrm-pass" class="error" required>
+            <form action="https://httpbin.org/post" method="post" class="form">
+                <div class="main-form">
+                    <div class="first-name">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name" minlength="3" maxlength="16" pattern="[A-za-z]+" placeholder="Thorin" required>
+                    </div>
+                    <div class="last-name">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name" minlength="3" maxlength="16" placeholder="Oakenshield" required>
+                    </div>
+                    <div class="email">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" placeholder="example@email.com" required>
+                    </div>
+                    <div class="phone">
+                        <label for="phone-num">PHONE NUMBER</label>
+                        <input type="tel" name="phone-num" id="phone-num" maxlength="11" pattern="([0-9]+(-[0-9]+)+)" placeholder="123-4567890">
+                    </div>
+                    <div class="password">
+                        <label for="pass">PASSWORD</label>
+                        <input type="password" name="pass" id="pass" class="pass" required>
+                    </div>
+                    <div class="cnfrm-pass">
+                        <label for="confrm-pass">CONFIRM PASSWORD</label>
+                        <input type="password" name="confrm-pass" id="confrm-pass" class="confrm-pass" required>
+                        <div class="message"></div>
+                    </div>
                 </div>
                 <span class="footer">
                     <button type="submit">Create Account</button>

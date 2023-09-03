@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: norse;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+.logo-bar{
+    border: 1px solid;
+    height: 6rem;
+    background-image: url(./images/odin-background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-content{
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-content > img{
+    height: 3rem;
+    width: 3rem;
+    opacity: 1;
+}
+
+.logo-content > p{
+    font-family: norse;
+    font-size: 1.2rem;
+}
+
+.top-txt{
+    margin-top: 1rem;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 1.3rem;
+    text-align: center;
+}
+
+.top-txt:nth-child(2){
+    margin-top: 1.5rem;
+}
+
+.form{
+    margin: 1rem 0 1rem 0;
+    box-shadow: 0 3px 3px 0 silver;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.footer > p > a{
+    text-decoration: none;
+    color: #596D48;
+}
+
+.footer > button{
+    border-style: none;
+    background-color: #596D48;
+    box-shadow: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+}

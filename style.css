@@ -55,7 +55,7 @@
 .form{
     margin: 1rem 0 1rem 0;
     box-shadow: 0 3px 3px 0 silver;
-    padding: 1.2rem;
+    padding: 0 1.2rem 1.2rem 1.2rem;
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
@@ -66,7 +66,7 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 
 .footer > p > a{
@@ -81,4 +81,16 @@
     border-radius: 5px;
     color: white;
     padding: 8px;
+}
+
+input{
+    border-radius: 3px;
+    box-shadow: 0 1px 1px 0 silver;
+    outline: none;
+    transition: 0.5s;
+}
+
+input:focus{
+    border-color: dodgerblue;
+
 }

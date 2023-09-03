@@ -98,7 +98,7 @@
 input{
     height: 2rem;
     border: 2px solid lightsteelblue;
-    border-radius: 3px;
+    border-radius: 8px;
     box-shadow: 0 2px 2px 0 silver;
     outline: none;
     transition: 0.5s;
@@ -109,7 +109,7 @@ input:focus{
 
 }
   
-  /* Tablet Styles */
+
   @media only screen and (min-width: 600px) and (max-width: 960px) {
     .logo-bar{
         height: 10rem;
@@ -133,7 +133,7 @@ input:focus{
     }
   }
   
-  /* Desktop Styles */
+
   @media only screen and (min-width: 961px) {
     .wrapper{
         display: grid;

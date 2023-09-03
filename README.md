@@ -1,7 +1,3 @@
-# Project Title
-
-Sign-up form
-
 ## Project Overview
 
 This project involves creating a visually appealing web page based on a design provided by The Odin Project. The primary goal is to faithfully replicate the design while ensuring proper functionality. The project is divided into several key steps.
